@@ -52,7 +52,14 @@ This documentation provides an overview and detailed analysis of the "Bank Churn
 - Training dataset prediction accuracy: 74.4%.
 
 ## Part 3: Customer & Churner Profile
-- Detailed profiles for customers and churners (specifics not visible in provided sections).
+- Customer Profile
+  
+![Bank_Churn_Prediction_Profiling_Presentation](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/7bbed546-2621-41cb-a8e0-8806b18f2ea7)
+
+- Churner Profile
+
+![Bank_Churn_Prediction_Profiling_Presentation (1)](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/57bd0e3e-5508-4f94-a6b2-dc7f457545f2)
+
 
 ## Part 5: Business Impact
 
