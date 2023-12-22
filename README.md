@@ -13,7 +13,13 @@ This documentation provides an overview and detailed analysis of the "Bank Churn
 ## Overview
 
 ### Data Flow & Dataset
+- **Data Flow:**
+
+![dataflow](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/607a5b95-4e16-4a9a-9b5a-b15702788212)
+
 - **Data Set:** Involves a dataset of bank churn customers with 13 schema elements.
+
+![dataset](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/2b6c8982-b0a8-4ba8-84de-3eecd82b22e7)
 
 ## Part 1: Data Preparation and Customer Segmentation
 
@@ -24,8 +30,13 @@ This documentation provides an overview and detailed analysis of the "Bank Churn
 
 ### Cluster Modeling
 - Utilization of Elbow Method & Silhouette Score for cluster number determination (K = 4, 5).
+  
+![clusde](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/c2bc1fd1-be68-4655-8b3e-7e3b45ba8d8e)
 
 ### Cluster Training Result
+
+![clusre](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/c3d9435e-7ee1-409b-b0c1-b12643164bb5)
+
 - Four customer segments identified:
   1. Basic Account Holders
   2. Active Savers
@@ -39,16 +50,36 @@ This documentation provides an overview and detailed analysis of the "Bank Churn
 
 ### Focus Group for Churn Prediction
 - Basic Account Holders & High-Value Customers with high churn ratios targeted.
+  
+![focus](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/4a1b5654-8d1f-4ae4-981f-27824a1f82c6)
 
 ### Model Development
 - Data split into focus and non-focus groups.
 - Resampling and K-fold cross-test for class imbalance.
+
+![churnmo](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/5ce57a8c-4167-4aca-8c2a-82fb8b7df547)
+
 - Evaluation metrics: AUC & F1 Score.
+
+![churnmo 1](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/bfea620d-43bd-432f-a453-9744f7617045)
+
 - Feature handling and algorithm selection detailed.
 
+![churnde](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/414fd0e4-f4c7-49fb-802f-345f94fe3e91)
+
+
 ### Training Results
+
+![churnre](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/aeb9ba43-53f4-4ca4-80be-43e56dee6092)
+
 - Emphasis on variable importance.
+
+![churnre1](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/8b43b586-fbef-4257-a64d-51de8792a708)
+
 - Confusion & cost metrics, lift chart.
+
+![churnre2](https://github.com/Toeyeses/Bank_ChurnPredict-Profile/assets/128026055/d0de47dc-d006-4268-aa5b-432699ebd1fb)
+
 - Training dataset prediction accuracy: 74.4%.
 
 ## Part 3: Customer & Churner Profile
