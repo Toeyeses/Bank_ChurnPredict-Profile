@@ -1,4 +1,4 @@
-# Bank Churn Prediction & Profiling Presentation
+# Bank Churn Prediction & Profiling
 
 This documentation provides an overview and detailed analysis of the "Bank Churn Prediction & Profiling Presentation"
 ## Table of Contents
